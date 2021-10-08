@@ -1,2 +1,0 @@
-# Tritinerary
-Web-Tech Project
