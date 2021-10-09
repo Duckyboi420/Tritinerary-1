@@ -11,7 +11,7 @@ if($num==1){
     echo("Home Page!");
 }
 else{
-    echo("Wrong Password/Username");
+    echo "<script type='text/javascript'>alert('Wrong Username/Password');window.location='Login.php';</script>";
 }
 
 
