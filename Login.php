@@ -10,7 +10,6 @@
     <title>Login</title>
 </head>
 <body>
-    <h1>Tritinerary</h1>
     <div class="signup">
         <h2>LOGIN</h2>
         <form action="Login_PHP.php" method="post">
@@ -26,7 +25,9 @@
                 <input type="password" name="Password" class="form-control" id="inputPassword3">
               </div>
             </div>
-            <button type="submit" class="btn btn-primary">Login</button>
+            <div>
+              <button type="submit" class="btn btn-primary">Login</button>
+            </div>
         </form>    
     </div>
 </body>

@@ -10,7 +10,6 @@
     <title>Sign-Up</title>
 </head>
 <body>
-    <h1>Tritinerary</h1>
     <div class="signup">
         <h2>SIGN-UP</h2>
         <form action="Registration.php" method="post">

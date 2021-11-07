@@ -1,32 +1,36 @@
 /* Style Page */
 /* Same for both Signup and Login */
-body{
-    background: rgb(228, 123, 123);
-    background-size: cover;
-    background-position: center;
+:root {
+    --primary-color: #0087ca;
+    --border-color: rgb(226, 226, 226);
 }
-h1{
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 5px;
-    font-family: monospace;
-    color: blanchedalmond;
+
+body{
+    font-family: Roboto;
 }
 .signup{
-    background-color: rgb(233, 161, 161);
-    border: 2px solid rgb(231, 216, 216);
+    border: 2px solid var(--border-color);
     border-radius: 4px;
-    padding: 10px;
-    max-width: 600px;
+    padding: 10px 20px 30px 20px;
+    max-width: 500px;
     float: none;
     margin: 50px auto;
-    font-family: monospace;
 }
+
+.signup h2{
+    text-align: center;
+    padding: 1rem;
+    font-weight: 400;
+    color: var(--primary-color);
+}
+
+.btn-primary{
+    background-color: var(--primary-color);
+}
+
 .redirect{
-    background-color: rgb(233, 161, 161);
-    border: 2px solid rgb(231, 216, 216);
-    max-width: 600px;
+    border: 2px solid var(--border-color);
+    max-width: 500px;
     border-radius: 4px;
     text-align: center;
     margin:auto;
