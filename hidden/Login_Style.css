@@ -6,9 +6,21 @@
 }
 
 body{
+    background-image:url(/images/background.jpg);
+    background-position: 50%;
+    background-size: 100%;
     font-family: Roboto;
 }
+
+.header{
+    text-align: center;
+    font-size: 400%;
+    color: var(--primary-color);
+    font-weight: 300;
+    margin: 0rem;
+}
 .signup{
+    background-color: white;
     border: 2px solid var(--border-color);
     border-radius: 4px;
     padding: 10px 20px 30px 20px;
